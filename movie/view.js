@@ -13,7 +13,7 @@ function render(movies) {
     <h1>My Favorite Movies Of All Time</h1>
     <ul class="cardContainer">
       <li class="cards_item">
-        <div class="cardContainer">
+        <div class="card">
           <div class="card_image">${movies[0].photo}</div>
           <div class="card_content">
             <h2 class="card_title">${movies[0].name}</h2>

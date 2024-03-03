@@ -1,13 +1,7 @@
-/* Font */
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
-
-/* Design */
 *{
   box-sizing: border-box;
 }
-
-
-
 body {
   color: #272727;
   font-family: 'Quicksand', serif;
@@ -17,12 +11,10 @@ body {
   padding: 1rem;
   background: #f1fada;
 }
-
 .main{
   max-width: 1200px;
   margin: 0 auto;
 }
-
 h1 {
     font-size: 24px;
     font-weight: 400;
@@ -54,7 +46,7 @@ img {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
-.cards {
+.cardContainer {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -66,8 +58,6 @@ img {
   display: flex;
   padding: 1rem;
 }
-
-
 .card {
   background-color: white;
   border-radius: 0.5rem;
@@ -86,7 +76,6 @@ img {
   padding: 1rem;
   background: #2D9596;
 }
-
 .card_title {
   color: #ffffff;
   font-size: 1.1rem;
@@ -113,7 +102,6 @@ img {
   display: flex;
   flex-direction: row;
   border:1px saddlebrown solid;
-
 }
 .rating-top{
   border:1px saddlebrown solid;
@@ -122,9 +110,7 @@ img {
   .cards_item {
     width: 50%;
   }
-
 }
-
 @media (min-width: 56rem) {
   .cards_item {
     width: 33.3333%;

@@ -6,7 +6,7 @@ function render(movies) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Favorite Movies</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_pug_icon_130225.png">
+        <link rel="icon" href="https://avatars.githubusercontent.com/u/104258639?v=4">
     </head>
     <body>
     <div class="main">
@@ -64,7 +64,6 @@ function render(movies) {
             <p class="card_text">${movies[4].ranking}</p>
             <p class="card_text">${movies[4].genre}</p>
             <a class="ranking">${movies[4].ratting}</a>
-
           </div>
         </div>
       </li>
@@ -80,10 +79,7 @@ function render(movies) {
       </li>
     </ul>
   </div>
-  
     </body>
     </html>
-`;
-}
-
+`;}
 module.exports = render;

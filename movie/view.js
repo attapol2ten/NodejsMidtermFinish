@@ -4,8 +4,9 @@ function render(movies) {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pug Colors</title>
+        <title>Favorite Movies</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_pug_icon_130225.png">
     </head>
     <body>
     <div class="main">
